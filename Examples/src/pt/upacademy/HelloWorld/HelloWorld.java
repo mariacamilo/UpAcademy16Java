@@ -11,7 +11,7 @@ public class HelloWorld {
 		String name = scu.getText();
 		System.out.println("Name : " + name);
 
-		System.out.println("Hello! What’s your Age?");
+		System.out.println("Hello "+ name + "! What’s your Age?");
 		int age = scu.getInt();
 		System.out.println("Age : " + age);
 
